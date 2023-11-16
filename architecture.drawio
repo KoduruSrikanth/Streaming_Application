@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2023-10-08T15:04:12.471Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Vf2jhqMzQ9hbKp0wIrdT" version="22.0.4" type="device">
+  <diagram name="Page-1" id="KZbw-aMRRWgdPPfqXTOk">
+    <mxGraphModel dx="974" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.entechlog.com/images/blog/vendor-logos/kafka.png;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="150" height="78.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:700/1*qCXA0Ex9wlEMl8igYsOkhw.png;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-7" value="Spark Streaming Application" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=180;height=40;" vertex="1" parent="1">
+          <mxGeometry y="90" width="710" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-8" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="619" y="94" width="90" height="73.8" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-images-1.medium.com/max/851/1*nPcdyVwgcuEZiEZiRqApug.jpeg;" vertex="1" parent="1">
+          <mxGeometry x="458.09" y="360.73" width="141.91" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://refactorizando.com/en/wp-content/uploads/2023/06/Cassandra-1.png;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360.73" width="160" height="74.27" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-11" value="Kafka Topic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="199.19" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rt7lKfmlCC0pvrDloMqi-2" target="Rt7lKfmlCC0pvrDloMqi-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Rt7lKfmlCC0pvrDloMqi-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="240" as="sourcePoint" />
+            <mxPoint x="430" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rt7lKfmlCC0pvrDloMqi-11" target="Rt7lKfmlCC0pvrDloMqi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="291" as="sourcePoint" />
+            <mxPoint x="640" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rt7lKfmlCC0pvrDloMqi-6" target="Rt7lKfmlCC0pvrDloMqi-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="351" as="sourcePoint" />
+            <mxPoint x="720" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rt7lKfmlCC0pvrDloMqi-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="341" as="sourcePoint" />
+            <mxPoint x="360" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt7lKfmlCC0pvrDloMqi-17" value="Airflow DAG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

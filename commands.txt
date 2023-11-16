@@ -1,0 +1,7 @@
+docker network create kafka-airflow
+
+docker-compose -f docker-compose.yaml -f airflow-compose.yaml up
+
+ docker exec -it kafka_broker_1 /bin/bash
+
+ docker exec kafka_broker_1 kafka-topics --bootstrap-server kafka_broker_1:9092 --create --topic json_data
